@@ -1,4 +1,4 @@
-.structure__list-image {
+.structure__item-image {
   display: block;
   max-width: 120px;
   width: 100%;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 659px) {
-  .structure__list-image {
+  .structure__item-image {
     max-width: 100px;
   }
 }

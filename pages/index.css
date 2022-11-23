@@ -27,8 +27,8 @@
 @import url(../blocks/structure/__list/structure__list.css);
 @import url(../blocks/structure/__list-item/structure__list-item.css);
 @import url(../blocks/structure/__list-item/_moving/structure__list-item_moving_right.css);
-@import url(../blocks/structure/__list-image/structure__list-image.css);
-@import url(../blocks/structure/__list-image/_moving/structure__list-image_moving_right.css);
+@import url(../blocks/structure/__item-image/structure__item-image.css);
+@import url(../blocks/structure/__item-image/_moving/structure__item-image_moving_right.css);
 @import url(../blocks/structure/__item-text/structure__item-text.css);
 @import url(../blocks/structure/__item-text/_moving/structure__item-text_moving_left.css);
 @import url(../blocks/structure/__main-image/structure__main-image.css);
