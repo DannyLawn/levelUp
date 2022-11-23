@@ -1,0 +1,18 @@
+.promo__title {
+  margin: 0 0 80px;
+  text-align: center;
+  color: #F8F8FF;
+  font-size: 3.4vw;
+}
+
+@media screen and (max-width: 991px) {
+  .promo__title {
+    font-size: 33.73px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .promo__title {
+    margin-bottom: 40px;
+  }
+}

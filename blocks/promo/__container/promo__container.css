@@ -1,0 +1,13 @@
+.promo__container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+@media screen and (max-width: 767px) {
+  .promo__container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+}

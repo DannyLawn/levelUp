@@ -1,0 +1,22 @@
+.structure__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 767px) {
+  .structure__list {
+    display: flex;
+  }
+  .structure__list:first-of-type {
+    margin-bottom: 250px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .structure__list {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+}

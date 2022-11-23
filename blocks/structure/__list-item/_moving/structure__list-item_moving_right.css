@@ -1,0 +1,9 @@
+.structure__list-item_moving_right {
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+  .structure__list-item_moving_right {
+    justify-content: flex-end;
+  }
+}

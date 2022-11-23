@@ -1,0 +1,46 @@
+.promo__image {
+  display: block;
+  object-fit: contain;
+  aspect-ratio: 291 / 451;
+  width: 100%;
+  max-width: 320px;
+  will-change: transform;
+  animation: shaker 14s infinite 2s;
+}
+
+@keyframes shaker {
+  20% {
+    transform: rotate(0deg);
+  }
+
+  23% {
+    transform: rotate(-5deg)
+  }
+
+  26% {
+    transform: rotate(5deg);
+  }
+
+  29% {
+    transform: rotate(-5deg);
+  }
+
+  32% {
+    transform: rotate(5deg);
+  }
+
+  35% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .promo__image {
+    max-width: 280px;
+    min-width: 210px;
+  }
+}

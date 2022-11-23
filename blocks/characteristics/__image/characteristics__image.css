@@ -1,0 +1,5 @@
+.characteristics__image {
+  display: block;
+  width: 70px;
+  object-fit: contain;
+}

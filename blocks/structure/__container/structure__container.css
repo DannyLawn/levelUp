@@ -1,0 +1,23 @@
+.structure__container {
+  display: flex;
+  justify-content: space-between; 
+  width: 100%;
+  background: url(../../../images/prodChemistry.png) center / contain no-repeat;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .structure__container {
+    flex-direction: column;
+    background: url(../../../images/prodChemistry2.png) center / contain no-repeat;
+    margin-bottom: 65px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .structure__container {
+    flex-direction: column;
+    background: url(../../../images/prodChemistry3.png) center / contain no-repeat;
+    margin-bottom: 65px;
+  }
+}

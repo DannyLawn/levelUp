@@ -1,0 +1,14 @@
+.structure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  padding: 40px 8%;
+}
+
+@media screen and (max-width: 575px) {
+  .structure {
+    padding: 40px 2%;
+  }
+}

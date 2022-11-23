@@ -1,0 +1,9 @@
+.structure__list-image_moving_right {
+  order: 2;
+}
+
+@media screen and (max-width: 1099px) {
+  .structure__list-image_moving_right {
+    order: 0;
+  }
+}

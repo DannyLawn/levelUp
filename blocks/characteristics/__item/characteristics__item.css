@@ -1,0 +1,18 @@
+.characteristics__item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.characteristics__item:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .characteristics__item {
+    margin-bottom: 10px;
+  }
+
+  .characteristics__item:last-of-type {
+    margin-bottom: 10px;
+  }
+}

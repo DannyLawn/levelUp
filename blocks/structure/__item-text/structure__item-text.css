@@ -1,0 +1,20 @@
+.structure__item-text {
+  margin: 0;
+  max-width: 210px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: default;
+}
+
+@media screen and (max-width: 767px) {
+  .structure__item-text {
+    font-size: 2.22vw;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .structure__item-text {
+    font-size: 13px;
+  }
+}
