@@ -1,0 +1,37 @@
+.characteristics__item_main {
+  max-width: 500px;
+  width: 100%; 
+  justify-content: center;
+  will-change: transform;
+}
+
+.characteristics__item_main:nth-child(1) {
+  animation: scaler 6s infinite linear;
+}
+
+.characteristics__item_main:nth-child(2) {
+  animation: scaler 6s infinite 2s linear;
+}
+
+.characteristics__item_main:nth-child(3) {
+  animation: scaler 6s infinite 4s linear;
+}
+
+@keyframes scaler {
+  18% {
+    transform: scale(1);
+  }
+
+
+  31% {
+    transform: scale(1.14);
+  }
+
+  35% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

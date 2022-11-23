@@ -1,11 +1,11 @@
-.button_pulsar {
+.button_structure {
   padding: 17px 42px;
   will-change: transform;
   animation: pulsar 2.5s infinite ease-in-out;
 }
 
 
-.button_pulsar::before {
+.button_structure::before {
   background-color: #DDB715;
   color: #000;
   left: auto;

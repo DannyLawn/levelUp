@@ -1,0 +1,6 @@
+.main-promo__photo-doctor {
+  display: block;
+  max-width: 420px;
+  object-fit: contain;
+  width: 100%;
+}

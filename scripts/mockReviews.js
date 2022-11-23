@@ -17,6 +17,6 @@ export const mockReviews = [
   {
     photo: './images/reviews/4.png',
     name: 'Чарльз Файзер',
-    review: 'Состав, вполне себе. Эффективное средство.'
+    review: 'Состав, вполне себе.'
   }
 ];

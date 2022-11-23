@@ -5,7 +5,8 @@
 @import url(../blocks/page/__content/page__content.css);
 
 @import url(../blocks/button/button.css);
-@import url(../blocks/button/_pulsar/button_pulsar.css);
+@import url(../blocks/button/_structure/button_structure.css);
+@import url(../blocks/button/_main-promo/button_main-promo.css);
 
 @import url(../blocks/promo/promo.css);
 @import url(../blocks/promo/__video/promo__video.css);
@@ -17,9 +18,13 @@
 @import url(../blocks/promo/__comprise/promo__comprise.css);
 
 @import url(../blocks/characteristics/characteristics.css);
+@import url(../blocks/characteristics/_main/characteristics_main.css);
 @import url(../blocks/characteristics/__item/characteristics__item.css);
+@import url(../blocks/characteristics/__item/_main/characteristics__item_main.css);
 @import url(../blocks/characteristics/__image/characteristics__image.css);
+@import url(../blocks/characteristics/__image/_main/characteristics__image_main.css);
 @import url(../blocks/characteristics/__text/characteristics__text.css);
+@import url(../blocks/characteristics/__text/_main/characteristics__text_main.css);
 
 @import url(../blocks/structure/structure.css);
 @import url(../blocks/structure/__container/structure__container.css);
@@ -41,3 +46,9 @@
 @import url(../blocks/reviews/__photo/reviews__photo.css);
 @import url(../blocks/reviews/__name/reviews__name.css);
 @import url(../blocks/reviews/__text/reviews__text.css);
+
+@import url(../blocks/main-promo/main-promo.css);
+@import url(../blocks/main-promo/__description-container/main-promo__description-container.css);
+@import url(../blocks/main-promo/__photo-doctor/main-promo__photo-doctor.css);
+@import url(../blocks/main-promo/__description/main-promo__description.css);
+@import url(../blocks/main-promo/__description/_accent/main-promo__description_accent.css);

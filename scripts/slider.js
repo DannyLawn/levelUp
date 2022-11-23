@@ -1,3 +1,4 @@
+
 const slidesContainer = document.getElementById("slides-container");
 const slide = document.querySelector(".slider__slide");
 const prevButton = document.querySelector(".slider__slide-arrow_prev");
