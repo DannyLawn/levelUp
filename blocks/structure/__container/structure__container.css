@@ -3,7 +3,7 @@
   justify-content: space-between; 
   width: 100%;
   background: url(../../../images/prodChemistry.png) center / contain no-repeat;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 767px) {

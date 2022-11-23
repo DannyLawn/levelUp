@@ -13,7 +13,7 @@
 <body class="page">
   <main class="page_content">
 
-    <!-- <section class="promo">
+    <section class="promo">
       <video class="promo__video" autoplay loop muted loop controls="">
         <source src="./videoBack.mp4" type="video/mp4">
       </video>
@@ -61,27 +61,43 @@
         </ul>
         <ul class="structure__list">
           <li class="structure__list-item structure__list-item_moving_right">
-            <img class="structure__item-image structure__item-image_moving_right" src="./images/structure.jpg" alt="Горка светлого порошка.">
+            <img class="structure__item-image structure__item-image_moving_right" src="./images/structure.jpg"
+              alt="Горка светлого порошка.">
             <p class="structure__item-text structure__item-text_moving_left">Кроскармеллоза натрия</p>
           </li>
           <li class="structure__list-item structure__list-item_moving_right">
-            <img class="structure__item-image structure__item-image_moving_right" src="./images/structure.jpg" alt="Горка светлого порошка.">
+            <img class="structure__item-image structure__item-image_moving_right" src="./images/structure.jpg"
+              alt="Горка светлого порошка.">
             <p class="structure__item-text structure__item-text_moving_left">Стеарат магния</p>
           </li>
           <li class="structure__list-item structure__list-item_moving_right">
-            <img class="structure__item-image structure__item-image_moving_right" src="./images/structure.jpg" alt="Горка светлого порошка.">
+            <img class="structure__item-image structure__item-image_moving_right" src="./images/structure.jpg"
+              alt="Горка светлого порошка.">
             <p class="structure__item-text structure__item-text_moving_left">Лактоза моногидрат</p>
           </li>
         </ul>
       </div>
       <button class="button button_pulsar">Заказать</button>
-    </section> -->
+    </section>
 
     <section class="reviews">
-      <div class="reviews__review">
-        <img class="reviews__review-photo" src="" alt="">
-        <p class="reviews__review-name"></p>
-        <p class="reviews__review-text"></p>
+      <h2 class="reviews__title">Отзывы</h2>
+      <div class="slider">
+        <button class="slider__slide-arrow slider__slide-arrow_prev">
+          &#8249;
+        </button>
+        <button class="slider__slide-arrow slider__slide-arrow_next">
+          &#8250;
+        </button>
+        <ul class="slider__slides-container" id="slides-container">
+          <template class="slider-template">
+            <li class="slider__slide">
+              <img class="reviews__photo" src="" alt="">
+              <p class="reviews__name"></p>
+              <p class="reviews__text"></p>
+            </li>
+          </template>
+        </ul>
       </div>
     </section>
 
@@ -121,6 +137,8 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="./scripts/promo-video.js"></script>
+  <script type="module" src="./scripts/index.js"></script>
+  <script defer src="./scripts/slider.js"></script>
 </body>
 
 </html>

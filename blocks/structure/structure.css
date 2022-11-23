@@ -5,8 +5,9 @@
   justify-content: flex-start;
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 40px 8%;
-  max-width: 2048px;
+  padding: 100px 8% 80px;
+  max-width: 2048px; 
+  background: linear-gradient(0deg, #e8e8e8,#f8f8ff,#f8f8ff); 
 }
 
 @media screen and (max-width: 575px) {

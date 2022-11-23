@@ -1,0 +1,33 @@
+.slider__slide-arrow {
+  position: absolute;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 4rem;
+  background-color: white;
+  border: none;
+  width: 2rem;
+  font-size: 3rem;
+  padding: 0;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity .4s ease-in-out, transform .4s ease-in-out;
+}
+
+.slider__slide-arrow:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+ 
+.slider__slide-arrow_prev {
+  left: 0;
+  padding-left: 0.25rem;
+  border-radius: 0 2rem 2rem 0;
+}
+ 
+.slider__slide-arrow_next {
+  right: 0;
+  padding-left: 0.75rem;
+  border-radius: 2rem 0 0 2rem;
+}

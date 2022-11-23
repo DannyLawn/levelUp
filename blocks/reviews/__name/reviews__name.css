@@ -1,0 +1,13 @@
+.reviews__name {
+  margin: 15px 0 0;
+  color: #DDB715;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 575px) {
+  .reviews__name {
+    font-size: 20px;
+  }
+}

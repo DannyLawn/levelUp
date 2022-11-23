@@ -1,0 +1,19 @@
+.slider__slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 100%;
+  height: 100%;
+  flex: 1 0 100%;
+  background-color: #212121f3;
+}
+
+
+@media screen and (max-width: 575px) {
+  .slider__slide {
+    padding: 35px;
+  }
+}

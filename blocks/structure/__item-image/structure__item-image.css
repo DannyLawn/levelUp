@@ -3,11 +3,18 @@
   max-width: 120px;
   width: 100%;
   object-fit: contain;
-  border-radius: 100px;
+  object-position: center;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 659px) {
   .structure__item-image {
     max-width: 100px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .structure__item-image {
+    max-width: 120px;
   }
 }

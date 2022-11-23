@@ -1,0 +1,13 @@
+.reviews {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  background: url(../../images/reviews/wallpeper.png) center / cover no-repeat;
+  padding: 70px;
+}
+
+@media screen and (max-width: 575px) {
+  .reviews {
+    padding: 70px 6%;
+  }
+}

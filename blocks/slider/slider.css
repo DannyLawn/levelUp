@@ -1,0 +1,22 @@
+.slider {
+  box-sizing: border-box;
+  margin: -1px auto;
+  position: relative;
+  overflow: hidden;
+  width: 65vw;
+  max-width: 797px;
+  height: 70vh;
+  border-top: none;
+}
+
+@media screen and (max-width: 1199px) {
+  .slider {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .slider {
+    width: 98%;
+  }
+}

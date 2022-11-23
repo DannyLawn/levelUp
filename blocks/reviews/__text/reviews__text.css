@@ -1,0 +1,17 @@
+.reviews__text {
+  margin: 40px 0 0;
+  max-width: 670px;
+  color: #F8F8FF;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 575px) {
+  .reviews__text {
+    font-size: 14px;
+
+  }
+}
