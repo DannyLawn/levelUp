@@ -1,3 +1,3 @@
-# Project: Level-Up
+# Project: LevelUp
 
 ### [Страница проекта](https://dannylawn.github.io/levelUp/) 
