@@ -5,6 +5,7 @@
   max-width: 260px;
   width: 100%;
   border-radius: 50%;
-  border: 3px solid #DDB715;
+  border: 2px solid #ddb815ae;
+  box-shadow: 0 0 20px #ddb8157d;
   font-size: 0;
 }

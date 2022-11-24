@@ -5,7 +5,8 @@
   object-fit: contain;
   object-position: center;
   border-radius: 50%;
-  border: 2px solid #ddb81545;
+  border: 1px solid #ddb8154c;
+  box-shadow: 0 0 5px #ddb8157d;
   aspect-ratio: 1 / 1;
 }
 
