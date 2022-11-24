@@ -14,8 +14,12 @@
   .structure__list-item {
     flex-direction: column;
     gap: 0;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-align: center;
+  }
+
+  .structure__list-item:last-child {
+    margin-bottom: 0;
   }
 }
 

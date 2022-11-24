@@ -1,13 +1,15 @@
 .structure__item-image {
   display: block;
-  max-width: 120px;
+  max-width: 130px;
   width: 100%;
   object-fit: contain;
   object-position: center;
   border-radius: 50%;
+  border: 2px solid #ddb81545;
+  aspect-ratio: 1 / 1;
 }
 
-@media screen and (max-width: 659px) {
+@media screen and (max-width: 768px) {
   .structure__item-image {
     max-width: 100px;
   }
@@ -15,6 +17,6 @@
 
 @media screen and (max-width: 575px) {
   .structure__item-image {
-    max-width: 120px;
+    max-width: 140px;
   }
 }
