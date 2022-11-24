@@ -7,6 +7,7 @@
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_structure/button_structure.css);
 @import url(../blocks/button/_main-promo/button_main-promo.css);
+@import url(../blocks/button/_form/button_form.css);
 
 @import url(../blocks/promo/promo.css);
 @import url(../blocks/promo/__video/promo__video.css);
@@ -38,6 +39,9 @@
 
 @import url(../blocks/slider/slider.css);
 @import url(../blocks/slider/__slide-arrow/slider__slide-arrow.css);
+@import url(../blocks/slider/__slide-arrow/_next/slider__slide-arrow_next.css);
+@import url(../blocks/slider/__slide-arrow/_prev/slider__slide-arrow_prev.css);
+@import url(../blocks/slider/__slide-arrow/_disabled/slider__slide-arrow_disabled.css);
 @import url(../blocks/slider/__slides-container/slider__slides-container.css);
 @import url(../blocks/slider/__slide/slider__slide.css);
 
@@ -52,3 +56,31 @@
 @import url(../blocks/main-promo/__photo-doctor/main-promo__photo-doctor.css);
 @import url(../blocks/main-promo/__description/main-promo__description.css);
 @import url(../blocks/main-promo/__description/_accent/main-promo__description_accent.css);
+
+@import url(../blocks/order/order.css);
+@import url(../blocks/order/__title/order__title.css);
+@import url(../blocks/order/__container/order__container.css);
+@import url(../blocks/order/__title/_accent/order__title_accent.css);
+@import url(../blocks/order/__content-container/order__content-container.css);
+@import url(../blocks/order/__product-image/order__product-image.css);
+@import url(../blocks/order/__timer/order__timer.css);
+@import url(../blocks/order/__discount-container/order__discount-container.css);
+@import url(../blocks/order/__price/order__price.css);
+@import url(../blocks/order/__price/_old/order__price_old.css);
+@import url(../blocks/order/__price/_new/order__price_new.css);
+@import url(../blocks/order/__form-container/order__form-container.css);
+
+@import url(../blocks/timer/timer.css);
+@import url(../blocks/timer/__svg/timer__svg.css);
+@import url(../blocks/timer/__circle/timer__circle.css);
+@import url(../blocks/timer/__label/timer__label.css);
+@import url(../blocks/timer/__path-elapsed/timer__path-elapsed.css);
+@import url(../blocks/timer/__path-remaining/timer__path-remaining.css);
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__input-container/form__input-container.css);
+@import url(../blocks/form/__input-item/form__input-item.css);
+@import url(../blocks/form/__input-item/_hint/form__input-item_hint_name.css);
+@import url(../blocks/form/__input-item/_hint/form__input-item_hint_phone.css);
+@import url(../blocks/form/__input-capture/form__input-capture.css);
+@import url(../blocks/form/__input/form__input.css);

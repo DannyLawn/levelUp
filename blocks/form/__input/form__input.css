@@ -1,0 +1,20 @@
+.form__input {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+  color: black;
+  height: 44px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 31px;
+  letter-spacing: 0.3px;
+}
+
+.form__input:focus {
+  border-bottom: 2px solid rgb(255, 0, 98);
+}

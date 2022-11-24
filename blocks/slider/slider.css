@@ -1,11 +1,13 @@
 .slider {
   box-sizing: border-box;
-  margin: -1px auto;
+  margin: 0 auto;
   position: relative;
   overflow: hidden;
   width: 65vw;
-  max-width: 797px;
   height: 70vh;
+  max-width: 797px;
+  max-height: 520px;
+  
   border-top: none;
 }
 

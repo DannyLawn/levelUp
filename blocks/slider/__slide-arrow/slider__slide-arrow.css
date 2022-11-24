@@ -19,15 +19,3 @@
   opacity: 1;
   transform: scale(1.1);
 }
- 
-.slider__slide-arrow_prev {
-  left: 0;
-  padding-left: 0.25rem;
-  border-radius: 0 2rem 2rem 0;
-}
- 
-.slider__slide-arrow_next {
-  right: 0;
-  padding-left: 0.75rem;
-  border-radius: 2rem 0 0 2rem;
-}

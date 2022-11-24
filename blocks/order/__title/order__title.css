@@ -1,0 +1,19 @@
+.order__title {
+  margin: 0 0 80px;
+  text-align: center;
+  color: #F8F8FF;
+  font-size: 3vw;
+  cursor: default;
+}
+
+@media screen and (max-width: 991px) {
+  .order__title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .order__title {
+    margin-bottom: 60px;
+  }
+}

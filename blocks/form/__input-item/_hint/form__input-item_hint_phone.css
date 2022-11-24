@@ -1,0 +1,29 @@
+.form__input-item_hint_phone::after {
+  -webkit-transition-delay: .4s;
+  transition-delay: .4s;
+  content: "Введите телефон, используя только цифры. Например: 89216665544";
+  position: absolute;
+  top: -9999px;
+  left: 100%;
+  border: rgba(180, 178, 178, 0.73) 2px solid;
+  border-radius: 5px;
+  padding: 12px;
+  width: 130px;
+  background: rgba(255, 0, 98, 0.866);
+  color: #fff;
+  opacity: 0;
+  text-align: center;
+}
+
+.form__input-item_hint_phone:focus-within::after {
+  top: -100px;
+  opacity: 1;
+}
+
+@media screen and (max-width: 575px) {
+  .form__input-item_hint_phone:focus-within::after {
+    left: 70%;
+    width: 100px;
+    padding: 10px;
+  }
+}

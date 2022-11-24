@@ -1,0 +1,20 @@
+.order__content-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .order__content-container {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .order__content-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+}

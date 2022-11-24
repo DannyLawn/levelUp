@@ -1,0 +1,42 @@
+.order__product-image {
+  display: block;
+  max-width: 240px;
+  width: 100%;
+  object-fit: contain;
+  will-change: transform;
+  animation: shaker 8s infinite 2s;
+}
+
+@keyframes shaker {
+  20% {
+    transform: rotate(0);
+  }
+
+  23% {
+    transform: rotate(-9deg)
+  }
+
+  26% {
+    transform: rotate(5deg);
+  }
+
+  29% {
+    transform: rotate(-9deg);
+  }
+
+  32% {
+    transform: rotate(5deg);
+  }
+
+  35% {
+    transform: rotate(-9deg);
+  }
+
+  38% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}

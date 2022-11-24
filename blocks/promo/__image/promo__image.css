@@ -10,7 +10,7 @@
 
 @keyframes shaker {
   20% {
-    transform: rotate(0deg);
+    transform: rotate(0);
   }
 
   23% {
@@ -34,7 +34,7 @@
   }
 
   100% {
-    transform: rotate(0deg);
+    transform: rotate(0);
   }
 }
 

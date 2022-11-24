@@ -1,0 +1,8 @@
+.order {
+  align-items: center;
+  box-sizing: border-box;
+  padding: 50px 8%;
+  min-height: 100vh;
+  background-color: rgb(17, 17, 17);
+  color: #F8F8FF;
+}

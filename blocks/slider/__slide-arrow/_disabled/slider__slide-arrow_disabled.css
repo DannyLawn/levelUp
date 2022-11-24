@@ -1,0 +1,9 @@
+.slider__slide-arrow_disabled {
+  background-color: rgba(132, 132, 132, 0.8);
+  cursor: default;
+}
+
+.slider__slide-arrow_disabled:hover {
+  opacity: 0.6;
+  transform: scale(1);
+}

@@ -1,0 +1,9 @@
+.order__form-container {
+  padding: 0 60px;
+}
+
+@media screen and (max-width: 575px) {
+  .order__form-container {
+    padding: 0;
+  }
+}

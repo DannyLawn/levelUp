@@ -1,0 +1,4 @@
+.order__discount-container {
+  display: flex;
+  flex-direction: column;
+}
