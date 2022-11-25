@@ -3,12 +3,9 @@
   margin: 0 auto;
   position: relative;
   overflow: hidden;
-  width: 65vw;
-  height: 70vh;
-  max-width: 797px;
-  max-height: 520px;
-  
-  border-top: none;
+  width: 65%;
+  height: 70%;
+  max-width: 797px; 
 }
 
 @media screen and (max-width: 1199px) {
