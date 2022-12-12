@@ -1,7 +1,7 @@
 .button_structure {
   padding: 17px 42px;
   will-change: transform;
-  animation: pulsar 2.5s infinite ease-in-out;
+  animation: pulsarButton 4.5s infinite ease-in-out;
 }
 
 
@@ -12,20 +12,20 @@
   right: 0;
 }
 
-@keyframes pulsar {
+@keyframes pulsarButton {
   0% {
-      transform: scale(1);
+      transform: scale(0.9);
   }
   30% {
-      transform:scale(1.04);
+      transform:scale(1);
   }
   60% {
-    transform:scale(1);
+    transform:scale(0.9);
   }
   80% {
-    transform:scale(1.04);
+    transform:scale(1);
   }
   100% {
-    transform:scale(1);
+    transform:scale(0.9);
   } 
 }
