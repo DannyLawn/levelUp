@@ -1,5 +1,5 @@
 # Project: LevelUp
-Тестовое задание.   
+Тестовое задание :)
 Выполнено за три дня.
 
 ### [Страница проекта](https://dannylawn.github.io/levelUp/) 
